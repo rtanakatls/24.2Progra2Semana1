@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Progra2
 {
-    internal class Program
+    internal class BlankNameException : Exception
     {
-        static void Main(string[] args)
+        public BlankNameException() : base("El nombre no puede estar vacío")
         {
-            Menu menu = new PersonMenu();
-            menu.Execute();
         }
     }
 }

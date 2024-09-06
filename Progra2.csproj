@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlankNameException.cs" />
+    <Compile Include="Example1Menu.cs" />
+    <Compile Include="Example2Menu.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="NegativeAgeException.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="PersonMenu.cs" />
     <Compile Include="WeaponExample\Enemy.cs" />
     <Compile Include="WeaponExample\EnemyMelee.cs" />
     <Compile Include="WeaponExample\EnemyRange.cs" />

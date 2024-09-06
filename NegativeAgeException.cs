@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Progra2
 {
-    internal class Program
+    internal class NegativeAgeException : Exception
     {
-        static void Main(string[] args)
+        public NegativeAgeException(int age) : base($"La edad ingresada es {age} pero la edad no puede ser negativa")
         {
-            Menu menu = new PersonMenu();
-            menu.Execute();
         }
     }
 }
