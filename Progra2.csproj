@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{62938155-9712-4A5B-A26A-DC5D2004C884}</ProjectGuid>
+    <ProjectGuid>{D35EA812-42B7-4784-A680-58D2D97B10FE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Progra2</RootNamespace>
     <AssemblyName>Progra2</AssemblyName>
@@ -43,11 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WeaponExample\Enemy.cs" />
+    <Compile Include="WeaponExample\EnemyMelee.cs" />
+    <Compile Include="WeaponExample\EnemyRange.cs" />
+    <Compile Include="WeaponExample\EquipableWeapon.cs" />
+    <Compile Include="WeaponExample\MeleeWeapon.cs" />
+    <Compile Include="WeaponExample\Player.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="WeaponExample\Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeaponExample\RangeWeapon.cs" />
+    <Compile Include="WeaponExample\Sword.cs" />
+    <Compile Include="WeaponExample\Weapon.cs" />
+    <Compile Include="WeaponExample\WeaponHolder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

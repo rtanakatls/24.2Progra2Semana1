@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Progra2
 {
-    internal class Program
+    internal interface EquipableWeapon
     {
-        static void Main(string[] args)
-        {
-
-        }
+        int Attack();
     }
 }
