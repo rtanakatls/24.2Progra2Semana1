@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Progra2.NotificationExample;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace Progra2
     {
         static void Main(string[] args)
         {
-            Menu menu = new PersonMenu();
+            Menu menu = new NotificationMenu();
             menu.Execute();
         }
     }

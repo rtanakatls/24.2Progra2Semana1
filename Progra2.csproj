@@ -48,6 +48,11 @@
     <Compile Include="Example2Menu.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="NegativeAgeException.cs" />
+    <Compile Include="NotificationExample\INotification.cs" />
+    <Compile Include="NotificationExample\NotificationHandler.cs" />
+    <Compile Include="NotificationExample\NotificationMenu.cs" />
+    <Compile Include="NotificationExample\ScoreNotification.cs" />
+    <Compile Include="NotificationExample\TextNotification.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonMenu.cs" />
     <Compile Include="WeaponExample\Enemy.cs" />
